@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,14 +7,12 @@
 </head>
 <body class="bg-light">
 
-    <div class="container mt-5">
-        <h1 class="text-center text-primary">¡Bienvenido a tu proyecto Laravel!</h1>
-        <p class="lead text-center">Este proyecto usa Laravel, Blade y Bootstrap 5</p>
-
-        <div class="text-center">
-            <a href="{{ route('home') }}" class="btn btn-success">Ir al Home</a>
-        </div>
-    </div>
+    @include('components.navbar')
+    @include('components.mision-vision')
+    @include('components.cta-botones')
+    @include('components.barra-impacto')
+    @include('components.footer')
 
 </body>
 </html>
+
