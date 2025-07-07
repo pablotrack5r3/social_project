@@ -1,4 +1,4 @@
-<footer class="bg-dark text-white pt-5 pb-4">
+<footer class="footer  pt-5 pb-4">
   <div class="container text-center text-md-start">
     <div class="row">
 
@@ -12,10 +12,10 @@
       <div class="col-md-2 mb-4">
         <h6 class="text-uppercase fw-bold mb-3">Enlaces</h6>
         <ul class="list-unstyled">
-          <li><a href="{{ url('/') }}" class="text-white text-decoration-none">Inicio</a></li>
-          <li><a href="{{ url('/about-us') }}" class="text-white text-decoration-none">Quiénes somos</a></li>
-          <li><a href="{{ url('/gallery') }}" class="text-white text-decoration-none">Galería</a></li>
-          <li><a href="{{ url('/transparency') }}" class="text-white text-decoration-none">Transparencia</a></li>
+          <li><a href="{{ url('/') }}" class="text-black text-decoration-none">Inicio</a></li>
+          <li><a href="{{ url('/about-us') }}" class="text-black text-decoration-none">Quiénes somos</a></li>
+          <li><a href="{{ url('/gallery') }}" class="text-black text-decoration-none">Galería</a></li>
+          <li><a href="{{ url('/transparency') }}" class="text-black text-decoration-none">Transparencia</a></li>
         </ul>
       </div>
 
@@ -23,10 +23,10 @@
       <div class="col-md-3 mb-4">
         <h6 class="text-uppercase fw-bold mb-3">Programas</h6>
         <ul class="list-unstyled">
-          <li><a href="{{ url('/formation') }}" class="text-white text-decoration-none">Formación comunitaria</a></li>
-          <li><a href="{{ url('/employment') }}" class="text-white text-decoration-none">Empleo para todos</a></li>
-          <li><a href="{{ url('/services') }}" class="text-white text-decoration-none">Servicios profesionales</a></li>
-          <li><a href="{{ url('/volunteering') }}" class="text-white text-decoration-none">Voluntariado</a></li>
+          <li><a href="{{ url('/formation') }}" class="  text-black text-decoration-none">Formación comunitaria</a></li>
+          <li><a href="{{ url('/employment') }}" class=" text-black text-decoration-none">Empleo para todos</a></li>
+          <li><a href="{{ url('/services') }}" class=" text-black text-decoration-none">Servicios profesionales</a></li>
+          <li><a href="{{ url('/volunteering') }}" class=" text-black text-decoration-none">Voluntariado</a></li>
         </ul>
       </div>
 
@@ -45,3 +45,12 @@
     </div>
   </div>
 </footer>
+
+
+<style> 
+  footer {
+    background-color: #f4f4f9;
+    color: #212529;
+  }
+
+</style>

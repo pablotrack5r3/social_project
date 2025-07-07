@@ -1,1 +1,13 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+
+
+body { 
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4fc;
+    color: #333;
+}
+
+:root { 
+    --acent-color: #5d57f4;
+}
+

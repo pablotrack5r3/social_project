@@ -7,7 +7,6 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-
 // Quiénes somos
 Route::get('/about-us', function () {
     return view('about-us');
